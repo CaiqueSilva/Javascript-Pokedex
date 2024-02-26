@@ -1,0 +1,135 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    background-color: rgb(23, 23, 23);
+}
+
+header{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.teste{
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.image{
+    background:purple;
+    height: 12rem;
+    border-radius: 25px 25px 0 0;
+}
+
+.escriba{
+    background: aliceblue;
+    height: 15rem;
+    border: 1px solid aliceblue;
+    border-radius: 0 0 25px 25px;
+}
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 10px;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+.typesLi{
+    list-style: none;
+    width: 100px;
+    text-align: center;
+
+    border-radius: 10px;
+    margin: 3px;
+    padding: 2px;
+    background-color: blueviolet;
+    color: aliceblue;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.definition{
+    list-style: none;
+}
+
+.small{
+    width: 50px;
+}
+.medio{
+    width: 80px;
+}
+.bigbig{
+    width: 130px;
+}
+
+.botao{
+    background-color: rgb(154, 9, 9);
+    width: 5rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 	auto;
+    color: aliceblue;
+    border-radius: .5rem;
+    box-shadow: .1px 5px 5px black;
+    text-transform: capitalize;
+
+    display: block;
+    
+}
+.status{
+    list-style: none;
+    text-transform:none;
+    font-size:smaller;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.status li{
+    text-align: center;
+
+    width: 50%;
+}
+
+.normal {background-color: #A8A77A;}
+.fire {background-color: #EE8130;}
+.water {background-color: #6390F0;}
+.electric {background-color: #F7D02C;}
+.grass {background-color: #7AC74C;}
+.ice {background-color: #96D9D6;}
+.fighting {background-color: #C22E28;}
+.poison {background-color: #A33EA1;}
+.ground {background-color: #E2BF65;}
+.flying {background-color: #A98FF3;}
+.psychic {background-color: #F95587;}
+.bug {background-color: #A6B91A;}
+.rock {background-color: #B6A136;}
+.ghost {background-color: #735797;}
+.dragon {background-color: #6F35FC;}
+.dark {background-color: #705746;}
+.steel {background-color: #B7B7CE;}
+.fairy {background-color: #D685AD;}
+
+.volume{
+    background-color: purple;
+}
